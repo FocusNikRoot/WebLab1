@@ -25,7 +25,6 @@ nav ul {
 }
 
 .nav-right {
-    background-color: #333;
     align-items: flex-end;
     text-align: right;
     align-content: flex-end;
@@ -48,6 +47,7 @@ nav {
 .header-nav {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 /* .header-nav h1 {
@@ -74,7 +74,7 @@ nav {
 /*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-*/
 
 .hero {
-    background-image: url('images/hero.jfif');
+    background-image: url('images/hero\ background\ image.png');
     background-size: cover;
     color: white;
     text-align: center;
@@ -145,7 +145,7 @@ nav {
 
 .featured-destination {
     margin-top: 100px;
-    padding: 20px;
+    padding-left: 15%;
     background-color: #fff;
     text-align: left;
 }
@@ -452,6 +452,8 @@ footer {
     text-align: right;
     margin-top: 20px;
     background-color: white;
+    justify-content: space-between;
+    padding: 20px;
 }
 footer ul li {
     display: inline-block;
@@ -460,7 +462,6 @@ footer ul li {
 footer p {
     text-align: left;
     color: #434343;
-    margin-right: 800px;
     background-color:  white;
 }
 
