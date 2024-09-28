@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UltraWeb</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <section class="header-nav">
+            <h1>
+                <div><img src="images/Vector.svg" alt=""></div>
+                <img src="images/Vector (1).svg" alt="">
+            </h1>
+            <section class="nav-right">
+                <nav>
+                    <ul>
+                        <li><a class="navigationHome" href="index.html">Home</a></li>
+                        <li><a class="navigation" href="story.html">Story</a></li>
+                        <li><a class="navigation" href="#">Gallery</a></li>
+                        <li><a class="navigation" href="#">Contact Us</a></li>
+                        <li><a class="navigation" href="#"><img src="images/Header Search Icon.svg" alt=""></a></li>
+                        <li><a class="navigation" href="#"><img src="images/Header Profile.svg" alt=""></a></li>
+                    </ul>
+                </nav>
+            </section>
+        </section>
+    </header>
+    <main>
+        <img src="images/172f07d52bee77fb5c576d40cc27c532.jpeg" alt="">
+        <section class="community-image">
+            <section class="community-section">
+                <h2>
+                    Let’s build a community
+                </h2>
+                <h3>
+                    Join our next destination
+                </h3>
+                <p class="share-your-travels">Share your travels</p>
+                <p class="suggest-a-new">Suggest a new travel destination that you want to see and we will feature it in our blog.</p>
+                
+                <form class="destination-form">
+                    <input type="text" placeholder="Destination name" required>
+
+                    <select id="country" name="country" required>
+                        <option value="" disabled selected>Country of Destination</option>
+                        <option value="switzerland">Switzerland</option>
+                        <option value="france">France</option>
+                        <option value="italy">Italy</option>
+                    </select>
+
+                    <input type="text" placeholder="Your name" required>
+
+                    <select id="shooting-category" name="shooting-category" required>
+                        <option value="" disabled selected>Shooting category</option>
+                        <option value="landscape">Landscape</option>
+                        <option value="portrait">Portrait</option>
+                        <option value="wildlife">Wildlife</option>
+                    </select>
+
+                    <textarea id="photo-description" placeholder="Describe what kind of photos you want to focus on" rows="4" required></textarea>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <ul>
+            <li><p>© 2022, Talking Travel. All Rights Reserved.</p></li>
+            <li>
+                <nav>
+                    <a href="index.html">Home</a>
+                    <a href="story.html">Blog</a>
+                    <a href="#">Gallery</a>
+                    <a href="#">Contact Us</a>
+                </nav>
+            </li>
+        </ul>
+    </footer>
+</body>
