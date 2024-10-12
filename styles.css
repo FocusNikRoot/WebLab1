@@ -213,8 +213,7 @@ nav {
 
 .discover-world {
     display: flex;
-    align-items: center;
-    margin-left: 200px;
+    justify-content: center;
 }
 
 .discover-world ul {
@@ -359,7 +358,7 @@ nav {
 
 .recent-entries section {
     display: flex;
-    align-content: center;
+    justify-content: center;
     text-align: center;
 }
 
@@ -496,3 +495,264 @@ main h5 {
     margin: 0px;
     margin-bottom: 60px;
 }
+
+/*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-*/
+
+.story-video-play {
+    background-image: url('images/Article\ Hero\ Image.png');
+    border-radius: 10px;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 12%;
+    margin: 70px 23% 40px 23%;
+}
+
+.matterhorn {
+    height: 110px;
+    margin-bottom: -40px;
+}
+
+.popular-destinations {
+    display: flex;
+    justify-content: space-between;
+    margin: 70px 23% 40px 23%;
+    margin-bottom: -40px;
+}
+
+.popular-destinations section h3 {
+    font-family: Roboto;
+    font-size: 18px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color: #8A53FF;
+    margin-bottom: -40px;
+}
+
+.popular-destinations section h1 {
+    font-family: Changa One;
+    font-size: 50px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #434343;
+    margin-bottom: -20px;
+}
+
+.publicator-display {
+    display: flex;
+    height: 75px;
+    margin-top: 35px;
+    margin-bottom: -35px;
+}
+
+.publicator-display img {
+    width: 35px;
+    height: 35px;
+}
+
+.publicator-display h5{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    text-align: left;
+    color: #495367;
+    margin-left: 10px;
+}
+
+.publicator-display h4 {
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 16.41px;
+    text-align: left;
+    color: #A2A7B1;
+    margin-top: 20px;
+    margin-left: -35%;
+}
+
+.text-story-page {
+    margin: 70px 23% 40px 23%;
+    margin-bottom: -40px;
+    margin-top: 50px;
+}
+
+.text-story-page h2{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: #434343;
+}
+
+.text-story-page h1{
+    font-family: Changa One;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    color: #434343;
+}
+
+.callout-images {
+    display: flex;
+    margin: 70px 23% 40px 23%;
+    margin-right: 0px;
+}
+
+.callout-images img {
+    margin-right: 10px;
+}
+
+.callout-image-separator {
+    margin-top: 10px;
+    margin-bottom: -5px;
+}
+
+.Callout {
+    display: flex;
+    align-items: center;
+}
+
+.callout-text {
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    margin: 70px 23% 40px 0%;
+}
+
+.callout-text  h1{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: #434343;
+}
+
+.callout-text button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #8A53FF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    max-width: 225px;
+}
+
+.callout-text button:hover {
+    background-color: #5a54e0;
+    max-width: 225px;
+}
+
+.text-advantage {
+    margin: 70px 23% 40px 23%;
+}
+
+.text-advantage h1 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: #434343;
+}
+
+.text-highlight {
+    margin: 20px 23% 20px 23%;
+    font-family: Changa One;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    color: #434343;
+}
+
+.cards-highlight {
+    display: flex;
+    justify-content: center;
+    margin: 20px 23% 20px 23%;
+}
+
+.cards-highlight ul {
+    list-style: none;
+}
+
+.cards-highlight ul li {
+    display:inline-block;
+}
+
+.cards-highlight img {
+    margin-left: 80px;
+}
+
+.cards-highlight h5 {
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #828181;
+    margin-left: 80px;
+}
+
+.disclaimer {
+    margin: 20px 23% 20px 23%;
+}
+
+.disclaimer h1 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    color: #434343;
+}
+
+.disclaimer h2 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: #434343;
+}
+/* .discover-world {
+    
+}
+
+.discover-world ul {
+    
+}
+
+.discover-world ul li{
+    
+}
+
+.discover-world img {
+    margin-left: 50px;
+}
+
+.discover-world h5 {
+    margin-left: 40px;
+    font-family: Changa One;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #434343;
+}
+
+.discover-world p {
+    margin-left: 40px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: #8A53FF;
+} */
